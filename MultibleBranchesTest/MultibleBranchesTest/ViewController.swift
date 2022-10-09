@@ -7,6 +7,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleLabel.text = "Hello! I am the original application"
+        titleLabel.text = "Hello! I am the original application, but with updated text"
+        titleLabel.textColor = .green
     }
 }
