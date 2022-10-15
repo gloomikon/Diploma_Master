@@ -135,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				8425535428F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig */,
-				8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */,
 				8425535628F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig */,
+				8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */,
 			);
 			path = ProjectCopy;
 			sourceTree = "<group>";

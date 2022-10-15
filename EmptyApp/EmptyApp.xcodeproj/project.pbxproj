@@ -18,12 +18,11 @@
 		842EF8CC28F2DBF400A43A18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EF8A728F2B5F900A43A18 /* SceneDelegate.swift */; };
 		842EF8CF28F2DBF400A43A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8B028F2B5FA00A43A18 /* LaunchScreen.storyboard */; };
 		842EF8D128F2DBF400A43A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8AB28F2B5F900A43A18 /* Main.storyboard */; };
-		842EF8D928F2E59700A43A18 /* Assets Copy Test.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8D728F2E57B00A43A18 /* Assets Copy Test.xcassets */; };
-		842EF8DB28F2E5C800A43A18 /* Colors Shared.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8DA28F2E5C800A43A18 /* Colors Shared.xcassets */; };
-		842EF8DC28F2E5CC00A43A18 /* Colors Shared.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8DA28F2E5C800A43A18 /* Colors Shared.xcassets */; };
+		842EF8D928F2E59700A43A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8D728F2E57B00A43A18 /* Assets.xcassets */; };
+		842EF8DB28F2E5C800A43A18 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8DA28F2E5C800A43A18 /* Colors.xcassets */; };
+		842EF8DC28F2E5CC00A43A18 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8DA28F2E5C800A43A18 /* Colors.xcassets */; };
 		842EF8E128F2E9B000A43A18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8E328F2E9B000A43A18 /* Localizable.strings */; };
 		842EF8E728F2EA3C00A43A18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8E928F2EA3C00A43A18 /* Localizable.strings */; };
-		842EF8EC28F2EB7B00A43A18 /* Info Copy Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 842EF8EB28F2EB7B00A43A18 /* Info Copy Test.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +35,8 @@
 		842EF8B128F2B5FA00A43A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842EF8B328F2B5FA00A43A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842EF8D528F2DBF400A43A18 /* EmptyApp CopyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmptyApp CopyTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		842EF8D728F2E57B00A43A18 /* Assets Copy Test.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets Copy Test.xcassets"; sourceTree = "<group>"; };
-		842EF8DA28F2E5C800A43A18 /* Colors Shared.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Colors Shared.xcassets"; sourceTree = "<group>"; };
+		842EF8D728F2E57B00A43A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842EF8DA28F2E5C800A43A18 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		842EF8E228F2E9B000A43A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		842EF8E428F2E9C800A43A18 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		842EF8E828F2EA3C00A43A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -89,7 +88,7 @@
 				842EF8A728F2B5F900A43A18 /* SceneDelegate.swift */,
 				842EF8A928F2B5F900A43A18 /* ViewController.swift */,
 				842EF8AB28F2B5F900A43A18 /* Main.storyboard */,
-				842EF8DA28F2E5C800A43A18 /* Colors Shared.xcassets */,
+				842EF8DA28F2E5C800A43A18 /* Colors.xcassets */,
 				842EF8B028F2B5FA00A43A18 /* LaunchScreen.storyboard */,
 			);
 			path = EmptyApp;
@@ -109,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				842EF8EB28F2EB7B00A43A18 /* Info Copy Test.plist */,
-				842EF8D728F2E57B00A43A18 /* Assets Copy Test.xcassets */,
+				842EF8D728F2E57B00A43A18 /* Assets.xcassets */,
 				842EF8E928F2EA3C00A43A18 /* Localizable.strings */,
 			);
 			path = "Copy Test";
@@ -193,9 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				842EF8E128F2E9B000A43A18 /* Localizable.strings in Resources */,
-				842EF8EC28F2EB7B00A43A18 /* Info Copy Test.plist in Resources */,
 				842EF8B228F2B5FA00A43A18 /* LaunchScreen.storyboard in Resources */,
-				842EF8DB28F2E5C800A43A18 /* Colors Shared.xcassets in Resources */,
+				842EF8DB28F2E5C800A43A18 /* Colors.xcassets in Resources */,
 				842EF8AF28F2B5FA00A43A18 /* Assets.xcassets in Resources */,
 				842EF8AD28F2B5F900A43A18 /* Main.storyboard in Resources */,
 			);
@@ -207,9 +205,9 @@
 			files = (
 				842EF8E728F2EA3C00A43A18 /* Localizable.strings in Resources */,
 				842EF8CF28F2DBF400A43A18 /* LaunchScreen.storyboard in Resources */,
-				842EF8DC28F2E5CC00A43A18 /* Colors Shared.xcassets in Resources */,
+				842EF8DC28F2E5CC00A43A18 /* Colors.xcassets in Resources */,
 				842EF8D128F2DBF400A43A18 /* Main.storyboard in Resources */,
-				842EF8D928F2E59700A43A18 /* Assets Copy Test.xcassets in Resources */,
+				842EF8D928F2E59700A43A18 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
