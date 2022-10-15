@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8425531528F9E3060012267E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425531428F9E3060012267E /* AppDelegate.swift */; };
+		8425531728F9E3060012267E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425531628F9E3060012267E /* SceneDelegate.swift */; };
+		8425531928F9E3060012267E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425531828F9E3060012267E /* ViewController.swift */; };
+		8425531E28F9E3080012267E /* AssetsOriginal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425531D28F9E3080012267E /* AssetsOriginal.xcassets */; };
+		8425534028F9E5E20012267E /* MultipleSchemesTest-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533928F9E5E10012267E /* MultipleSchemesTest-Debug.xcconfig */; };
+		8425534128F9E5E20012267E /* MultipleSchemesTest-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533A28F9E5E10012267E /* MultipleSchemesTest-Release.xcconfig */; };
+		8425534228F9E5E20012267E /* MultipleSchemesTest-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533B28F9E5E10012267E /* MultipleSchemesTest-Common.xcconfig */; };
+		8425534328F9E5E20012267E /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533D28F9E5E10012267E /* Project-Release.xcconfig */; };
+		8425534428F9E5E20012267E /* Project-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533E28F9E5E20012267E /* Project-Common.xcconfig */; };
+		8425534528F9E5E20012267E /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425533F28F9E5E20012267E /* Project-Debug.xcconfig */; };
+		8425535A28F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425535428F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig */; };
+		8425535C28F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425535628F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig */; };
+		8425535E28F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */; };
+		8425536528FABEC40012267E /* AssetsCopy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425536428FABEC40012267E /* AssetsCopy.xcassets */; };
+		8425536828FAC0D40012267E /* (null) in Resources */ = {isa = PBXBuildFile; };
+		8425536C28FAC1760012267E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425536B28FAC1750012267E /* LaunchScreen.storyboard */; };
+		8425536E28FAC1850012267E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425536D28FAC1850012267E /* Main.storyboard */; };
+		8425537128FAC1AD0012267E /* LocalizableOriginal.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8425537328FAC1AD0012267E /* LocalizableOriginal.strings */; };
+		8425537F28FAC2460012267E /* LocalizableCopy.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8425538128FAC2460012267E /* LocalizableCopy.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8425531128F9E3060012267E /* OriginalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425531428F9E3060012267E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8425531628F9E3060012267E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8425531828F9E3060012267E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8425531D28F9E3080012267E /* AssetsOriginal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsOriginal.xcassets; sourceTree = "<group>"; };
+		8425532228F9E3080012267E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425533928F9E5E10012267E /* MultipleSchemesTest-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTest-Debug.xcconfig"; sourceTree = "<group>"; };
+		8425533A28F9E5E10012267E /* MultipleSchemesTest-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTest-Release.xcconfig"; sourceTree = "<group>"; };
+		8425533B28F9E5E10012267E /* MultipleSchemesTest-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTest-Common.xcconfig"; sourceTree = "<group>"; };
+		8425533D28F9E5E10012267E /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		8425533E28F9E5E20012267E /* Project-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Common.xcconfig"; sourceTree = "<group>"; };
+		8425533F28F9E5E20012267E /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		8425535128F9EB410012267E /* MultipleSchemesTestOriginal-Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestOriginal-Common.xcconfig"; sourceTree = "<group>"; };
+		8425535228F9EBB00012267E /* MultipleSchemesTestOriginal-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestOriginal-Release.xcconfig"; sourceTree = "<group>"; };
+		8425535328F9EBF90012267E /* MultipleSchemesTestOriginal-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestOriginal-Debug.xcconfig"; sourceTree = "<group>"; };
+		8425535428F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestCopy-Common.xcconfig"; sourceTree = "<group>"; };
+		8425535628F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestCopy-Release.xcconfig"; sourceTree = "<group>"; };
+		8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MultipleSchemesTestCopy-Debug.xcconfig"; sourceTree = "<group>"; };
+		8425536428FABEC40012267E /* AssetsCopy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsCopy.xcassets; sourceTree = "<group>"; };
+		8425536B28FAC1750012267E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8425536D28FAC1850012267E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8425537228FAC1AD0012267E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableOriginal.strings; sourceTree = "<group>"; };
+		8425537428FAC1B80012267E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LocalizableOriginal.strings; sourceTree = "<group>"; };
+		8425538028FAC2460012267E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableCopy.strings; sourceTree = "<group>"; };
+		8425538228FAC24A0012267E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LocalizableCopy.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8425530E28F9E3060012267E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8425530828F9E3060012267E = {
+			isa = PBXGroup;
+			children = (
+				8425531328F9E3060012267E /* MultipleSchemesTest */,
+				8425531228F9E3060012267E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8425531228F9E3060012267E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8425531128F9E3060012267E /* OriginalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8425531328F9E3060012267E /* MultipleSchemesTest */ = {
+			isa = PBXGroup;
+			children = (
+				8425536028FABE9F0012267E /* Resources */,
+				8425533728F9E5E10012267E /* Configs */,
+				8425531428F9E3060012267E /* AppDelegate.swift */,
+				8425531628F9E3060012267E /* SceneDelegate.swift */,
+				8425531828F9E3060012267E /* ViewController.swift */,
+				8425536D28FAC1850012267E /* Main.storyboard */,
+				8425536B28FAC1750012267E /* LaunchScreen.storyboard */,
+				8425532228F9E3080012267E /* Info.plist */,
+			);
+			path = MultipleSchemesTest;
+			sourceTree = "<group>";
+		};
+		8425533728F9E5E10012267E /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				8425535028F9EAD20012267E /* ProjectCopy */,
+				8425534C28F9EA190012267E /* ProjectOriginal */,
+				8425533C28F9E5E10012267E /* CommonConfigs */,
+			);
+			path = Configs;
+			sourceTree = SOURCE_ROOT;
+		};
+		8425533C28F9E5E10012267E /* CommonConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				8425533928F9E5E10012267E /* MultipleSchemesTest-Debug.xcconfig */,
+				8425533A28F9E5E10012267E /* MultipleSchemesTest-Release.xcconfig */,
+				8425533B28F9E5E10012267E /* MultipleSchemesTest-Common.xcconfig */,
+				8425533D28F9E5E10012267E /* Project-Release.xcconfig */,
+				8425533E28F9E5E20012267E /* Project-Common.xcconfig */,
+				8425533F28F9E5E20012267E /* Project-Debug.xcconfig */,
+			);
+			path = CommonConfigs;
+			sourceTree = "<group>";
+		};
+		8425534C28F9EA190012267E /* ProjectOriginal */ = {
+			isa = PBXGroup;
+			children = (
+				8425535128F9EB410012267E /* MultipleSchemesTestOriginal-Common.xcconfig */,
+				8425535228F9EBB00012267E /* MultipleSchemesTestOriginal-Release.xcconfig */,
+				8425535328F9EBF90012267E /* MultipleSchemesTestOriginal-Debug.xcconfig */,
+			);
+			path = ProjectOriginal;
+			sourceTree = "<group>";
+		};
+		8425535028F9EAD20012267E /* ProjectCopy */ = {
+			isa = PBXGroup;
+			children = (
+				8425535428F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig */,
+				8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */,
+				8425535628F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig */,
+			);
+			path = ProjectCopy;
+			sourceTree = "<group>";
+		};
+		8425536028FABE9F0012267E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8425536228FABEB10012267E /* Copy */,
+				8425536128FABEA40012267E /* Original */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8425536128FABEA40012267E /* Original */ = {
+			isa = PBXGroup;
+			children = (
+				8425531D28F9E3080012267E /* AssetsOriginal.xcassets */,
+				8425537328FAC1AD0012267E /* LocalizableOriginal.strings */,
+			);
+			path = Original;
+			sourceTree = "<group>";
+		};
+		8425536228FABEB10012267E /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				8425536428FABEC40012267E /* AssetsCopy.xcassets */,
+				8425538128FAC2460012267E /* LocalizableCopy.strings */,
+			);
+			path = Copy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8425531028F9E3060012267E /* MultipleSchemesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425532528F9E3080012267E /* Build configuration list for PBXNativeTarget "MultipleSchemesTest" */;
+			buildPhases = (
+				8425530D28F9E3060012267E /* Sources */,
+				8425530E28F9E3060012267E /* Frameworks */,
+				8425530F28F9E3060012267E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleSchemesTest;
+			productName = MultipleSchemesTest;
+			productReference = 8425531128F9E3060012267E /* OriginalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8425530928F9E3060012267E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8425531028F9E3060012267E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8425530C28F9E3060012267E /* Build configuration list for PBXProject "MultipleSchemesTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+			);
+			mainGroup = 8425530828F9E3060012267E;
+			productRefGroup = 8425531228F9E3060012267E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8425531028F9E3060012267E /* MultipleSchemesTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8425530F28F9E3060012267E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425535A28F9EC700012267E /* MultipleSchemesTestCopy-Common.xcconfig in Resources */,
+				8425534328F9E5E20012267E /* Project-Release.xcconfig in Resources */,
+				8425536C28FAC1760012267E /* LaunchScreen.storyboard in Resources */,
+				8425536828FAC0D40012267E /* (null) in Resources */,
+				8425534028F9E5E20012267E /* MultipleSchemesTest-Debug.xcconfig in Resources */,
+				8425534428F9E5E20012267E /* Project-Common.xcconfig in Resources */,
+				8425534128F9E5E20012267E /* MultipleSchemesTest-Release.xcconfig in Resources */,
+				8425536E28FAC1850012267E /* Main.storyboard in Resources */,
+				8425536528FABEC40012267E /* AssetsCopy.xcassets in Resources */,
+				8425535C28F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig in Resources */,
+				8425537128FAC1AD0012267E /* LocalizableOriginal.strings in Resources */,
+				8425531E28F9E3080012267E /* AssetsOriginal.xcassets in Resources */,
+				8425537F28FAC2460012267E /* LocalizableCopy.strings in Resources */,
+				8425535E28F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig in Resources */,
+				8425534528F9E5E20012267E /* Project-Debug.xcconfig in Resources */,
+				8425534228F9E5E20012267E /* MultipleSchemesTest-Common.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8425530D28F9E3060012267E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425531928F9E3060012267E /* ViewController.swift in Sources */,
+				8425531528F9E3060012267E /* AppDelegate.swift in Sources */,
+				8425531728F9E3060012267E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8425537328FAC1AD0012267E /* LocalizableOriginal.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425537228FAC1AD0012267E /* en */,
+				8425537428FAC1B80012267E /* uk */,
+			);
+			name = LocalizableOriginal.strings;
+			sourceTree = "<group>";
+		};
+		8425538128FAC2460012267E /* LocalizableCopy.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425538028FAC2460012267E /* en */,
+				8425538228FAC24A0012267E /* uk */,
+			);
+			name = LocalizableCopy.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8425532328F9E3080012267E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425533F28F9E5E20012267E /* Project-Debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+			};
+			name = Debug;
+		};
+		8425532428F9E3080012267E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425533D28F9E5E10012267E /* Project-Release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+			};
+			name = Release;
+		};
+		8425532628F9E3080012267E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425535328F9EBF90012267E /* MultipleSchemesTestOriginal-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8425532728F9E3080012267E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425535228F9EBB00012267E /* MultipleSchemesTestOriginal-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8425534628F9E9810012267E /* DebugCopy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425533F28F9E5E20012267E /* Project-Debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+			};
+			name = DebugCopy;
+		};
+		8425534728F9E9810012267E /* DebugCopy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425535828F9EC700012267E /* MultipleSchemesTestCopy-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = DebugCopy;
+		};
+		8425534828F9E9950012267E /* ReleaseCopy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425533D28F9E5E10012267E /* Project-Release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+			};
+			name = ReleaseCopy;
+		};
+		8425534928F9E9950012267E /* ReleaseCopy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425535628F9EC700012267E /* MultipleSchemesTestCopy-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = ReleaseCopy;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8425530C28F9E3060012267E /* Build configuration list for PBXProject "MultipleSchemesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425532328F9E3080012267E /* Debug */,
+				8425534628F9E9810012267E /* DebugCopy */,
+				8425532428F9E3080012267E /* Release */,
+				8425534828F9E9950012267E /* ReleaseCopy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425532528F9E3080012267E /* Build configuration list for PBXNativeTarget "MultipleSchemesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425532628F9E3080012267E /* Debug */,
+				8425534728F9E9810012267E /* DebugCopy */,
+				8425532728F9E3080012267E /* Release */,
+				8425534928F9E9950012267E /* ReleaseCopy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8425530928F9E3060012267E /* Project object */;
+}

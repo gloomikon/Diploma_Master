@@ -1,0 +1,2 @@
+#include "MultipleSchemesTestOriginal-Common.xcconfig"
+#include "../CommonConfigs/MultipleSchemesTest-Release.xcconfig"

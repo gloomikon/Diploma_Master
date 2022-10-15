@@ -1,0 +1,7 @@
+#include "../CommonConfigs/MultipleSchemesTest-Common.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.MultipleSchemesTestCopy
+OTHER_SWIFT_FLAGS = -DCOPYTEST
+PRODUCT_NAME = CopyApp
+EXCLUDED_SOURCE_FILE_NAMES = *.xcassets *.strings
+INCLUDED_SOURCE_FILE_NAMES = AssetsCopy.xcassets LocalizableCopy.strings

@@ -1,0 +1,7 @@
+#include "../CommonConfigs/MultipleSchemesTest-Common.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.MultipleSchemesTest
+OTHER_SWIFT_FLAGS = -DORIGINAL
+PRODUCT_NAME = OriginalApp
+EXCLUDED_SOURCE_FILE_NAMES = *.xcassets *.strings
+INCLUDED_SOURCE_FILE_NAMES = AssetsOriginal.xcassets LocalizableOriginal.strings
